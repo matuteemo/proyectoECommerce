@@ -1,114 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Haz crecer tu negocio a tu manera con ProdArt. Sombreros, Mochilas, Hamacas, Bolsos."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Peter Narváez" />
     <title>prodArt</title>
-    <!-- Archivos css-->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <link rel="stylesheet" href="assets/css/templatemo.css">
-     <link rel="stylesheet" href="assets/css/custom.css">
-     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-</head>
-<body>
+    <!-- Íconos -->
+    <link rel="apple-touch-icon" href="assets/img/favicon.png" />
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/templatemo.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  </head>
+
+  <body>
     <!-- Inicio del encabezado -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light" id="templatemo_nav_top"> 
-        <div class="container text-light">
-            <div class="w-100 d-flex justify_content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:pnarvaezing@gmail.com">Correo de contacto! </a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:15454848485">Contáctame!</a>
-                </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw mx-2 me-2"></i></a>
-                    <a class="text-light" href="hhtps://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light" id="templatemo_nav_top">
+      <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+          <div>
+            <i class="fa fa-envelope mx-2"></i>
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="mailto:pnarvaezing@gmail.com"
+              >Correo de contacto!</a
+            >
+            <i class="fa fa-phone mx-2"></i>
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="tel:15454848485"
+              >Contáctame!</a
+            >
+          </div>
+          <div>
+            <a
+              class="text-light"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              ><i class="fab fa-facebook-f fa-sm fa-fw mx-2 me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram fa-sm fa-fw me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Twitter"
+              ><i class="fab fa-twitter fa-sm fa-fw me-2"></i
+            ></a>
+          </div>
         </div>
+      </div>
     </nav>
     <!-- Fin del encabezado -->
-     <br><br><br><br><br><br><br><br><br><br>
-    <!-- Inicio del footer-->
-
-    <footer class="bg-dark" id="templatemo_footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-buttom pb-3 border-light">prodArt</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none text-light" href="tel:15454848485">Contáctame!</a>
+    <!-- Inicio menú-->
+     <!-- Header-->
+      <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class = "text-decoration-none navbar-brand text-success logo h1 align-self-center"href="index.html">prodArt</a>
+            <!--Ingresando fecha-->
+            <script>
+                var f = new Date();
+                document.write(f.getDate() + "/" + (f.getMonth()+1)+ "/"+ f.getFullYear())              
+            </script>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#template_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li>
-                           <i class="fa fa-envelope mx-2"></i> 
-                           <a class="text-decoration-none text-light" href="mailto:pnarvaezing@gmail.com">Correo de contacto!</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acercade.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="compras.html">Compras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html">Contactos</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-buttom pb-3 border-light">Productos</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="shop.html">Sombreros</a></li>
-                        <li><a class="text-decoration-none" href="shop.html">Hamacas</a></li>
-                        <li><a class="text-decoration-none" href="shop.html">Plateria</a></li>
-                        <li><a class="text-decoration-none" href="shop.html">Bolsos</a></li>
-                        <li><a class="text-decoration-none" href="shop.html">Mochilas</a></li>
-                        <li><a class="text-decoration-none" href="shop.html">Tapetes</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-buttom pb-3 border-light">Más información</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
-                        <li><a class="text-decoration-none" href="about.html">Acerca de</a></li>
-                        <li><a class="text-decoration-none" href="shop.html">Compras</a></li>
-                        <li><a class="text-decoration-none" href="shop_single.html">Productos</a></li>
-                        <li><a class="text-decoration-none" href="contact.html">Contactos</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light">
 
-                    </div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center"><a class="text-light text-decoration-none"
-                            target="_blank" href="hhtps://wwww.facebook.com"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a></li>
-                        <li class="list-inline-item border border-light rounded-circle text-center"><a class="text-light text-decoration-none"
-                                target="_blank" href="hhtps://wwww.instagram.com"><i class="fab fa-instagram fa-lg fa-fw"></i></a></li>
-                        <li class="list-inline-item border border-light rounded-circle text-center"><a class="text-light text-decoration-none"
-                                        target="_blank" href="hhtps://wwww.twitter.com"><i class="fab fa-twitter fa-lg fa-fw"></i></a></li>
-                    </ul>
-                <div class="col-auto">
-                    <label class="sr-only" for="suscribeEmail">Escriba su e-mail</label>
-                    <div class="input-group mb-2"></div>
-                        <input type="text" class="form-control bg-dark border-light" id="suscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Suscribirse</div>
-                    
-
-                </div>
-                </div>
-            </div>
-            <div class="w-100 bg-black py-3">
-                <div class="container">
-                    <div class="row pt-2">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2024  - Product / Diseñado por: Peter Narváez
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
-
+      </nav>
+    <!-- Inicio del footer -->
+    <footer class="bg-dark" id="templatemo_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-success border-bottom pb-3 border-light">prodArt</h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                <a
+                  class="text-decoration-none text-light"
+                  href="tel:15454848485"
+                  >Contáctame!</a
+                >
+              </li>
+              <li>
+                <i class="fa fa-envelope mx-2"></i>
+                <a
+                  class="text-decoration-none text-light"
+                  href="mailto:pnarvaezing@gmail.com"
+                  >Correo de contacto!</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li><a class="text-decoration-none" href="shop.html">Sombreros</a></li>
+              <li><a class="text-decoration-none" href="shop.html">Hamacas</a></li>
+              <li><a class="text-decoration-none" href="shop.html">Platería</a></li>
+              <li><a class="text-decoration-none" href="shop.html">Bolsos</a></li>
+              <li><a class="text-decoration-none" href="shop.html">Mochilas</a></li>
+              <li><a class="text-decoration-none" href="shop.html">Tapetes</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">Más información</h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li><a class="text-decoration-none" href="index.html">Home</a></li>
+              <li><a class="text-decoration-none" href="about.html">Acerca de</a></li>
+              <li><a class="text-decoration-none" href="shop.html">Compras</a></li>
+              <li><a class="text-decoration-none" href="shop_single.html">Productos</a></li>
+              <li><a class="text-decoration-none" href="contact.html">Contactos</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row text-light mb-4">
+          <div class="col-12 mb-3">
+            <div class="w-100 my-3 border-top border-light"></div>
+          </div>
+          <div class="col-auto me-auto">
+            <ul class="list-inline text-left footer-icons">
+              <li class="list-inline-item border border-light rounded-circle text-center">
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://www.facebook.com"
+                  aria-label="Facebook"
+                  ><i class="fab fa-facebook-f fa-lg fa-fw"></i
+                ></a>
+              </li>
+              <li class="list-inline-item border border-light rounded-circle text-center">
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://www.instagram.com"
+                  aria-label="Instagram"
+                  ><i class="fab fa-instagram fa-lg fa-fw"></i
+                ></a>
+              </li>
+              <li class="list-inline-item border border-light rounded-circle text-center">
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://www.twitter.com"
+                  aria-label="Twitter"
+                  ><i class="fab fa-twitter fa-lg fa-fw"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="col-auto">
+              <label class="sr-only" for="suscribeEmail">Escriba su e-mail</label>
+              <div class="input-group mb-2">
+                <input
+                  type="email"
+                  class="form-control bg-dark border-light"
+                  id="suscribeEmail"
+                  placeholder="Email address"
+                  required
+                />
+                <button class="btn btn-success text-light" type="submit">Suscribirse</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-100 bg-black py-3">
+          <div class="container">
+            <div class="row pt-2">
+              <p class="text-left text-light">
+                Copyright &copy; 2024 - ProdArt / Diseñado por: Peter Narváez
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-
-   <!-- Fin del footer --> 
-</body>
+    <!-- Fin del footer -->
+  </body>
 </html>
